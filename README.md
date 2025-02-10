@@ -159,7 +159,7 @@ utxo unspend transaction output: 계속 생성이 되며 상태가 사용됨이 
    쿼리문자열:추가적인 요청정보, 프래그먼트:문서내 특정 위치
     예시-[https://www.example.com/page?id=123#section]
 
-    클라이언트와서버
+   클라이언트와서버
     클라이언트:사용자가 서버와 상호작용을 위한 장치나 소프트웨어 ui,요청생성,응답처리,캐시기능,동적동작지원
     주요 클라이언트 소프트웨어:웹브라우저 chrome, firefox, safari, edge
                모바일 애플리케이션:iOS 및 Android 용 앱
@@ -167,7 +167,7 @@ utxo unspend transaction output: 계속 생성이 되며 상태가 사용됨이 
      -특징:항시 대기상태,데이터 저장 및 관리
      -다양한 처리능력:정적콘텐츠(html,css)와동적콘텐츠(api 호출,데이터베이스 처리) 지원
 
-     웹을 동물에 비유하면 
+   웹을 동물에 비유하면 
      -뼈,골격의 역할을 하는 html
      -동물의 피부색,질감 털의 색상,길이를 조절하는 css
      -동물이 움직이고 사냥할 수 있는 능력을 부여하는 javascript
