@@ -193,6 +193,10 @@ utxo unspend transaction output: 계속 생성이 되며 상태가 사용됨이 
  -staging area: commit 준비된 파일들 임시 저장공간 git add로 이곳에 온다
  -repository:git이 관리하는 데이터베이스, git commit으로 저장되며 기록된다
 
+git에서 자주 사용되는 명령어  
+ git fetch --all 
+ git pull origin main(branch)
+
 
 
 
