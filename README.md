@@ -171,8 +171,27 @@ utxo unspend transaction output: 계속 생성이 되며 상태가 사용됨이 
      -뼈,골격의 역할을 하는 html
      -동물의 피부색,질감 털의 색상,길이를 조절하는 css
      -동물이 움직이고 사냥할 수 있는 능력을 부여하는 javascript
+---------------------------------
+24.2.11 - 7일차
 
+##git 프로젝트 버전관리 도구, 분산형 버전관리 시스탬
 
+필요한 이유:
+ -파일이 변경되면 변경이력과 변경사항 확인 가능
+ -이전버전으로 돌아갈 수 있다
+ -협업을 할 때 유용하다
+ -데이터 손실시 저장소에서 백업 가능
+
+##git 호스팅
+ -git 저장소를 클라우드에 호스팅 하여 팀원이 파일을 공유하거나 협업하도록 지원,중앙에서 모든 변경사항과 버전을 관리
+ -주요기능: 원격저장소제공, pull request/merge request(팀원이 작업한 내용을 병합하기전 승인기능), 코드 리뷰,이슈 트레킹
+ 프로젝트 관리기능(칸반보드, 이슈연결), CI/CD(Continuous Integration/Continuous Deployment)
+ -장점:
+
+##git의 파일관리를 위한 사용되는 공간들 [working dir -> staging -> repository]
+ -working directory(modified):로컬상의 실제 위치, git은 파일을 추적하고는 있지만 저장소 반영은 안되는 상태
+ -staging area: commit 준비된 파일들 임시 저장공간 git add로 이곳에 온다
+ -repository:git이 관리하는 데이터베이스, git commit으로 저장되며 기록된다
 
 
 
