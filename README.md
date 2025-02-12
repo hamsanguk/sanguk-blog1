@@ -172,7 +172,7 @@ utxo unspend transaction output: 계속 생성이 되며 상태가 사용됨이 
      -동물의 피부색,질감 털의 색상,길이를 조절하는 css
      -동물이 움직이고 사냥할 수 있는 능력을 부여하는 javascript
 ---------------------------------
-24.2.11 - 7일차
+25.2.11 - 7일차
 
 ##git 프로젝트 버전관리 도구, 분산형 버전관리 시스탬
 
@@ -192,10 +192,30 @@ utxo unspend transaction output: 계속 생성이 되며 상태가 사용됨이 
  -working directory(modified):로컬상의 실제 위치, git은 파일을 추적하고는 있지만 저장소 반영은 안되는 상태
  -staging area: commit 준비된 파일들 임시 저장공간 git add로 이곳에 온다
  -repository:git이 관리하는 데이터베이스, git commit으로 저장되며 기록된다
+ 코드 작성 후 저장소 올라가는 공식 명령어 add commit push
 
-git에서 자주 사용되는 명령어  
- git fetch --all 
- git pull origin main(branch)
+##git branch
+ 같은 분기점에서 시작하여 서로다른 코드를 작성해야 되는 협업에서 사용된다. 분기된 코드에서 또 분기가 가능하며 이때는 분기 기준이 되는 브랜치에서 시작하도록 주의
+ git checkout -b branchname: 현재코드에서 브랜치생성후 바로 이동
+ git checkout branchname: branchname의 브랜치로 이동
+ git branch: branch들 이름보기
+
+##git merge
+ branch된 코드를 하나의 코드로 병합할 때 사용
+ merge 시도할 때 실패하는 이유는 branch협업시 같은곳에 수정사항이 발생,일치하지 않아서 발생한다.
+ 해결방안:git fetch --all :모든 원격저장소 내용을 로컬에 최신화
+        git pull origin main(branch):원격저장소(origin)의 내용을 브랜치코드로 가져오기
+----------------
+25.2.12-8일차
+SEO(Search Engine Optimize):검색엔진 최적화
+ 관연 키워드로 웹사이트에서 검색이 되었을때 검색된 페이지 최상단에 노출시켜 사용자 유입 증가 목적으로 최적화하는 작업
+ 검색엔진(google,bing)은 검색 키워드와 연관된 내용을 사용자에게 재공하기 위해 색인(index),분석을 하는데 seo는 이 과정을 위해 이해한다
+ SEO에 중요한 태그들
+  header:title,meta
+  body/특징은 의미가 부여된(sementic Tag)태그를 사용하여 검색엔진이 사이트를 쉽게 분석할 수 있도록 의도한다:h(n),nav,main,article,section,footer
+
+
+ 
 
 
 
